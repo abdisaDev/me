@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: monumentBold;
+  src: url(../assets/fonts/bold.otf);
+}
+
+@font-face {
+  font-family: monumentRegular;
+  src: url(../assets/fonts/regular.otf);
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +34,13 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  min-height: 100dvh;
+}
+
+h1 {
+  font-family: "monumentBold";
+}
+
+p {
+  font-family: "monumentRegular";
 }
