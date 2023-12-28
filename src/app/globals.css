@@ -35,7 +35,11 @@
     --ring: 240 5.9% 10%;
     --radius: 0.5rem;
   }
-
+  @layer base {
+    body {
+      @apply dark:bg-gray-800 bg-white;
+    }
+  }
   .dark {
     --background: 240 10% 3.9%;
     --foreground: 0 0% 98%;
@@ -202,6 +206,7 @@
     transform: translateX(-8px) translateY(8px);
   }
 }
+
 @keyframes text-shadow-pop-tr {
   0% {
     text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555,
@@ -231,6 +236,7 @@
     opacity: 1;
   }
 }
+
 @keyframes focus-in-contract {
   0% {
     letter-spacing: 1em;
@@ -271,6 +277,7 @@
     transform: translate(0);
   }
 }
+
 @keyframes vibrate-1 {
   0% {
     -webkit-transform: translate(0);
