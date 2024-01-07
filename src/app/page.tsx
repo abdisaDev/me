@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <Fragment>
       <Header />
-      <Hero />
-      <About />
+      {/* <Hero /> */}
+      {/* <About /> */}
     </Fragment>
   );
 }
