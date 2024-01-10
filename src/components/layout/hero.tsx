@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { FaChevronDown, FaGithubAlt } from "react-icons/fa";
+import { FaGithub, FaGithubAlt } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
 import {
   Tooltip,
   TooltipContent,
@@ -33,6 +35,38 @@ const Hero = () => {
         </TooltipProvider>
         per.
       </p>
+      <p className="mt-7 mb-2">Follow me on</p>
+      <hr className="w-64 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
+
+      <div>
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger>
+              <Link
+                href="https://github.com/developed-by-abdiza"
+                target="blank"
+              >
+                <FaGithub className="text-xl sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl inline jello-horizontal vibrate-1 mr-3" />
+              </Link>
+            </TooltipTrigger>
+            <TooltipContent side="bottom" className="sm:text-sm text-xs">
+              Github
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+        <TooltipProvider>
+          <Tooltip>
+            <TooltipTrigger>
+              <Link href="https://twitter.com/abdisaDev" target="blank">
+                <FaXTwitter className="text-xl sm:text-1xl md:text-2xl lg:text-3xl xl:text-4xl inline jello-horizontal vibrate-1 " />
+              </Link>
+            </TooltipTrigger>
+            <TooltipContent side="bottom" className="sm:text-sm text-xs">
+              X
+            </TooltipContent>
+          </Tooltip>
+        </TooltipProvider>
+      </div>
     </div>
   );
 };
