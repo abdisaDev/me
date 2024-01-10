@@ -6,7 +6,7 @@ import Hero from "@/components/layout/hero";
 export default function Home() {
   return (
     <Fragment>
-      <Header />
+      {/* <Header /> */}
       <Hero />
       {/* <About /> */}
     </Fragment>
