@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Fragment>
       <Header />
-      {/* <Hero /> */}
+      <Hero />
       {/* <About /> */}
     </Fragment>
   );
