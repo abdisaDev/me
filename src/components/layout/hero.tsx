@@ -35,7 +35,7 @@ const Hero = () => {
         </TooltipProvider>
         per.
       </p>
-      <p className="mt-7 mb-1">Follow me on</p>
+      <p className="mt-7 mb-1">Connect with me</p>
       <hr className="w-64 h-px my-2 bg-gray-200 border-0 dark:bg-gray-700" />
 
       <div>
