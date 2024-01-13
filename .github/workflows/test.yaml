@@ -1,0 +1,13 @@
+name: Test Work Flow
+run-name: ${{github.actor}} is learning gtihub actions
+on: [push]
+jobs:
+  testing-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "14"
+      - run: npm -v
+      - run: npm install -g pnpm
+      - run: pnpm -v
