@@ -6,6 +6,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Abdisa Alemu",
+  keywords: [
+    "Abdisa Alemu",
+    "Abdisa",
+    "Abdiza Dev",
+    "Abdiza",
+    "Abdiza Alemu",
+    "Alemu Abdisa",
+    "developed by abdiza",
+  ],
   description:
     "Abdisa's personal website that displays all show cases that he done before ",
 };
