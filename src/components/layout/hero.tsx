@@ -12,7 +12,7 @@ import BluryBox from "../styles/blury-box";
 
 const Hero = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden">
       <BluryBox />
 
       <div className="flex flex-col justify-center items-center h-screen items-center dark:bg-grey-300 backdrop-blur-lg">
