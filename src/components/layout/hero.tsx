@@ -10,8 +10,8 @@ import {
 } from "@/components/ui/tooltip";
 import BluryBox from "../styles/blury-box";
 
+let userName: string | null = prompt("Enter Your Full Name :)");
 const Hero = () => {
-  let userName: string | null = prompt("Enter Your Full Name :)");
   return (
     <div className="relative overflow-hidden">
       <BluryBox />
