@@ -10,7 +10,6 @@ import {
 } from "@/components/ui/tooltip";
 import BluryBox from "../styles/blury-box";
 
-let userName: string | null = prompt("Enter Your Full Name :)");
 const Hero = () => {
   return (
     <div className="relative overflow-hidden">
@@ -18,7 +17,7 @@ const Hero = () => {
 
       <div className="flex flex-col justify-center items-center h-screen items-center dark:bg-grey-300 backdrop-blur-lg">
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl text-shadow-pop-tr text-center">
-          {userName}
+          Abdisa Alemu
         </h1>
         <p className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl focus-in-contract ">
           Devel
