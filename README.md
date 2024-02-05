@@ -2,4 +2,4 @@ This repo helps devs to create their personal website easily by typing few comma
 
 project under construction. 
 
-[**latest release**](abdiza.tech)
+[**latest release**](https://abdiza.tech)
