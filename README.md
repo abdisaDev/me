@@ -4,4 +4,4 @@ project under construction.
 
 ### Releases:
 * [**v-1.0.0**](https://abdiza.tech)<br /><br />
-Author: `Abdisa Dev`.
+Author: `Abdisa Dev.`
