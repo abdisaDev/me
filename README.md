@@ -2,5 +2,5 @@ This repo helps devs to create their personal website easily by typing few comma
 
 project under construction. 
 
--- [**v-1.0.0**](https://abdiza.tech)
-`Author`: Abdisa Dev.
+-- [**v-1.0.0**](https://abdiza.tech)<br />
+Author: `Abdisa Dev`.
