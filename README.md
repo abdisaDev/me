@@ -4,4 +4,4 @@ This repo helps devs to create their personal website easily by typing few comma
 
 ### Releases:
 * [**v-0.1.0**](https://abdiza.tech)<br /><br />
-Author: `Abdisa Dev.`
+Author: [`Abdisa Dev`](https://abdiza.tech)
